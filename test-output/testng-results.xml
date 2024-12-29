@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T14:52:35 IST" name="Default suite" finished-at="2024-12-20T14:53:59 IST" duration-ms="84082">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T14:52:35 IST" name="Default test" finished-at="2024-12-20T14:53:59 IST" duration-ms="84082">
+      <class name="com.Scenario2.TestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:35 IST" name="setup" finished-at="2024-12-20T14:52:40 IST" duration-ms="4878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:40 IST" name="testValidLogin" finished-at="2024-12-20T14:52:45 IST" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:45 IST" name="tearDown" finished-at="2024-12-20T14:52:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestCase.testValidLogin()[pri:1, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testLeftMenuOptionsCount()[pri:2, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:45 IST" name="testLeftMenuOptionsCount" finished-at="2024-12-20T14:52:47 IST" depends-on-methods="com.Scenario2.TestCase.testValidLogin" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeftMenuOptionsCount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:47 IST" name="tearDown" finished-at="2024-12-20T14:52:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLeftMenuOptionsCount status=SUCCESS method=TestCase.testLeftMenuOptionsCount()[pri:2, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchByUsername()[pri:3, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:47 IST" name="searchByUsername" finished-at="2024-12-20T14:52:49 IST" depends-on-methods="com.Scenario2.TestCase.testLeftMenuOptionsCount" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:49 IST" name="tearDown" finished-at="2024-12-20T14:52:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByUsername status=SUCCESS method=TestCase.searchByUsername()[pri:3, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchByUserRole()[pri:4, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:52:49 IST" name="searchByUserRole" finished-at="2024-12-20T14:53:12 IST" depends-on-methods="com.Scenario2.TestCase.testValidLogin, com.Scenario2.TestCase.testLeftMenuOptionsCount" duration-ms="23145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserRole -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:12 IST" name="tearDown" finished-at="2024-12-20T14:53:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByUserRole status=SUCCESS method=TestCase.searchByUserRole()[pri:4, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchByEnabledStatus()[pri:5, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:12 IST" name="searchByEnabledStatus" finished-at="2024-12-20T14:53:35 IST" depends-on-methods="com.Scenario2.TestCase.testValidLogin, com.Scenario2.TestCase.testLeftMenuOptionsCount" duration-ms="23104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByEnabledStatus -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:35 IST" name="tearDown" finished-at="2024-12-20T14:53:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByEnabledStatus status=SUCCESS method=TestCase.searchByEnabledStatus()[pri:5, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchByDisabledStatus()[pri:6, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:35 IST" name="searchByDisabledStatus" finished-at="2024-12-20T14:53:59 IST" depends-on-methods="com.Scenario2.TestCase.testValidLogin, com.Scenario2.TestCase.testLeftMenuOptionsCount" duration-ms="23749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByDisabledStatus -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:59 IST" name="tearDown" finished-at="2024-12-20T14:53:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByDisabledStatus status=SUCCESS method=TestCase.searchByDisabledStatus()[pri:6, instance:com.Scenario2.TestCase@66982506] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.Scenario2.TestCase@66982506]" started-at="2024-12-20T14:53:59 IST" name="cleanUp" finished-at="2024-12-20T14:53:59 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.Scenario2.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
